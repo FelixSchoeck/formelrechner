@@ -51,7 +51,7 @@ public class pythagoras {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\Programmieren\\Java\\1\\Grafik Formelrechner\\iconfinder_calculator-math-tool-school_2824440.png"));
+		frame.setIconImage(Toolkit.getDefaultToolkit().getImage(pythagoras.class.getResource("/resources/icon.png")));
 		frame.setTitle("Mitternachtsformel");
 		frame.getContentPane().setBackground(Color.DARK_GRAY);
 		frame.setBounds(100, 100, 450, 300);

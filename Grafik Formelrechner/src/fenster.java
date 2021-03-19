@@ -53,7 +53,7 @@ public class fenster {
 	 */
 	void initialize() {
 		frmMitternachtsformel = new JFrame();
-		frmMitternachtsformel.setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\Programmieren\\Java\\1\\Grafik Formelrechner\\iconfinder_calculator-math-tool-school_2824440.png"));
+		frmMitternachtsformel.setIconImage(Toolkit.getDefaultToolkit().getImage(fenster.class.getResource("/resources/icon.png")));
 		frmMitternachtsformel.setTitle("Mitternachtsformel");
 		frmMitternachtsformel.getContentPane().setBackground(Color.DARK_GRAY);
 		frmMitternachtsformel.setBounds(100, 100, 450, 300);

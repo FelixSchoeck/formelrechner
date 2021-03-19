@@ -50,7 +50,7 @@ public class menu {
 	 */
 	private void initialize() {
 		menu = new JFrame();
-		menu.setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\Programmieren\\Java\\1\\Grafik Formelrechner\\iconfinder_calculator-math-tool-school_2824440.png"));
+		menu.setIconImage(Toolkit.getDefaultToolkit().getImage(menu.class.getResource("/resources/icon.png")));
 		menu.setTitle("Men\u00FC");
 		menu.getContentPane().setBackground(Color.DARK_GRAY);
 		menu.setBounds(100, 100, 450, 300);
