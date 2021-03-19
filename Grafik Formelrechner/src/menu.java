@@ -80,7 +80,7 @@ public class menu {
 		JButton pyt = new JButton("Satz des Pythagoras");
 		pyt.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				pythagoras pyta = new pythagoras();
+				pyt_auswahl pyta = new pyt_auswahl();
 				pyta.main(null);
 				menu.dispose();
 			}
